@@ -1,6 +1,6 @@
 {
     "name": "navitronic/behatkite",
-    "description": "A library to filter behat features based on Buildkite environment variables",
+    "description": "A library to filter behat feature files based on Buildkite environment variables",
     "type": "library",
     "require": {
         "behat/behat": "^3.7",
@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Navitronic\\BehatKite": "src/"
+            "Navitronic\\BehatKite\\": "src/"
         }
     },
     "authors": [
