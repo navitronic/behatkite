@@ -2,6 +2,7 @@
     "name": "navitronic/behatkite",
     "description": "A library to filter behat feature files based on Buildkite environment variables",
     "type": "library",
+    "license": "MIT",
     "require": {
         "behat/behat": "^3.7",
         "php": "^7.2"
