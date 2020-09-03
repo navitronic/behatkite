@@ -12,9 +12,9 @@ class BehatKiteFilter extends SimpleFilter
     private $jobCount;
     private $job;
 
-    public function __construct(int $featureCount)
+    public function __construct()
     {
-        $this->featureCount = $featureCount;
+        $this->featureCount = 0;
         $this->jobCount = (int) getenv('BUILDKITE_PARALLEL_JOB_COUNT') ?: 1;
         $this->job = (int) getenv('BUILDKITE_PARALLEL_JOB') ?: 0;
     }
