@@ -1,0 +1,20 @@
+{
+    "name": "navitronic/behatkite",
+    "description": "A library to filter behat features based on Buildkite environment variables",
+    "type": "library",
+    "require": {
+        "behat/behat": "^3.7",
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Navitronic\\BehatKite": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adrian Palmer",
+            "email": "navitronic@gmail.com"
+        }
+    ]
+}
